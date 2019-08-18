@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+body main {
+  margin: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-word; }
+  body main h1 {
+    font-size: 25px; }
+  body main h2 {
+    font-size: 17px;
+    margin-bottom: 0; }
+  body main .fragment-top {
+    border: 0.5px solid #c2c2c2;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: none; }
+    body main .fragment-top h1, body main .fragment-top h2 {
+      font-family: 'Press Start 2P', cursive; }
+  body main .fragment-middle {
+    border: 0.5px solid #c2c2c2;
+    border-top: none;
+    border-bottom: none; }
+    body main .fragment-middle form {
+      padding: 10px; }
+  body main .fragment-bottom {
+    border: 0.5px solid #c2c2c2;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top: none; }
+  body main #textbox {
+    display: block;
+    height: 425px;
+    width: 100%;
+    margin: 10px auto;
+    resize: none; }
+  body main .footer-text {
+    width: 100%;
+    text-align: center;
+    color: darkgray;
+    word-break: break-all; }
+  body main .sharebox h2 {
+    font-family: 'Press Start 2P', cursive; }
+  body main noscript {
+    color: red; }
+
+/*# sourceMappingURL=uglify.txt.css.map */
