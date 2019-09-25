@@ -49,5 +49,6 @@ window.DOP_config = {
     color: "#FFFFF",
     links: {
         patreon: "https://patreon.com/m4taiori",
+        kofi: "https://ko-fi.com/th3shadowbroker"
     }
 };
