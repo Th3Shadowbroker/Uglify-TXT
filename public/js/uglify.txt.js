@@ -28,7 +28,7 @@ function randomizeMode(txt) {
 }
 
 textbox.addEventListener('keypress', ev => {
-    if (ev.key.length > 0) addAtCursor(ev.key);
+    if (ev.key.length > 0) addAtCursor(String.fromCharCode(ev.keyCode));
     ev.preventDefault();
 });
 
